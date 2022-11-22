@@ -7,9 +7,9 @@ const mondayWork = function (activity = "go to the office") {
     return `This Monday, I will ${activity}.`
 }
 
-function wrapAdjective (val = "*") {
-    const inF = function (value = "||") {
-        return `You are ${val}${value}${val}!`
+function wrapAdjective (multiply = "*") {
+    const prompt = function (OR = "||") {
+        return `You are ${multiply}${OR}${multiply}!`
     }
-    return inF;
+    return prompt;
 }
